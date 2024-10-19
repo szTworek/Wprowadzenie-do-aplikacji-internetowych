@@ -1,0 +1,48 @@
+div{
+
+    width: 100px;
+    height: 100px;
+
+}
+#first{
+    width: 100%;
+    height:100px;
+
+
+}
+#left1{
+    background-color: #d33716;
+    float:left;
+    margin-left:30%;
+}
+#right1{
+    background-color: green;
+    float:right;
+    margin-right: 30%;
+}
+#second{
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+}
+
+
+#left2{
+    background-color: aqua;
+    float:left;
+    margin-left: 30%;
+
+}
+#center{
+    background-color: pink;
+    float:left;
+    margin-left:6%;
+}
+#right2{
+    background-color: darkgoldenrod;
+    float:right;
+    margin-right: 30%;
+
+}
+
+
