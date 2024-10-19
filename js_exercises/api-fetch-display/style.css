@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+table, td,th{
+    border-width: 2px;
+    border-style: solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+table{
+    width: 80%;
+    margin: auto;
+}
+th{
+    background-color: beige;
+}
+
+.productImages{
+    max-width: 100px;
+    max-height: 150px;
+}
+
+#filtration{
+    display: flex;
+    font-size: 20px;
+    column-gap: 40px;
+    justify-content: center ;
+    align-items: baseline;
+}

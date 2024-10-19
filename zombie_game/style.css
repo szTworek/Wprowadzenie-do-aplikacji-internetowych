@@ -1,0 +1,133 @@
+*{
+    cursor: url("img/aim2.png") 16 16,auto;
+    user-select: none;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+body{
+    font-family: "Modak", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+    background-image: url("img/board-bg.jpg") ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+#startContainer{
+    display: flex;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.8);
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+#start{
+    border-radius: 10px;
+    font-family: "Modak", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 100px;
+    color: white;
+    width: 1000px;
+    height: 300px;
+    background: none;
+    border-style: none;
+}
+
+:root{
+    --size: 1.5;
+    --speed: 5s;
+    --speedSprite: 0.8s;
+}
+
+.zombie{
+    width: calc(200px*var(--size));
+    height: calc(312px*var(--size));
+    background-size: calc(2000px*var(--size)) calc(312px*var(--size)) ;
+    background-image: url('img/walkingdead.png');
+    animation: playSprite var(--speedSprite) steps(10) infinite, zombieMovement var(--speed) linear forwards;
+    position:fixed;
+    bottom:20%;
+
+}
+
+@keyframes playSprite {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: calc(-2000px*var(--size)) 0;
+    }
+}
+
+@keyframes zombieMovement {
+    from {
+        right: -99px;
+    }
+    to{
+        right: 100%;
+    }
+    
+}
+#gameStateContainer{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#score{
+    font-size: 100px;
+    text-align: center;
+    right: 100px;
+
+}
+
+#hearts{
+    display: flex;
+    width:auto;
+    height:auto;
+    gap: 20px;
+    margin-left: 100px;
+}
+#hearts img{
+    width:100px;
+    height:100px;
+}
+
+
+#endGameContainer{
+    display: flex;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.8);
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+#youLost{
+    font-size: 100px;
+    color: red;
+}
+#restartButton{
+    border-radius: 10px;
+    font-family: "Modak", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+    background:none;
+    border: none;
+    width: 600px;
+    height:100px;
+}

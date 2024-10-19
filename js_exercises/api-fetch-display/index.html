@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="filtration">
+        <label>
+            Search products
+            <input type="text" id="filterInput" >
+        </label>
+        <select id="sortSelector">
+            <option id="basicSort">Sort by title</option>
+            <option id="ascending">Ascending</option>
+            <option id="descending">Descending</option>
+        </select>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th>Image</th>
+            <th>Title</th>
+            <th>Description</th>
+        </tr>
+        </thead>
+        <tbody id="output">
+
+        </tbody>
+    </table>
+
+</body>
+</html>
