@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <meta name="description" content="">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image:alt" content="">
+
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icon.png">
+
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#fafafa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div id="top">
+    <header>
+
+        <img src="img/panorama2.jpg" alt="Panorama Przeworska" id="panorama">
+        <div id="przeworsk">
+            <a href="index.html"><img src="img/emblemat.png" alt="Przeworsk"></a>
+        </div>
+
+
+    </header>
+    <nav>
+        <div id="bar">
+            <div id="home"><a class="menu" href="index.html">STRONA GŁÓWNA</a></div>
+            <div id="galeria"><a class="menu" href="DlaTurysty.html">DLA TURYSTY</a></div>
+            <div id="kontakt"><a class="menu" href="Kontakt.html">KONTAKT</a></div>
+        </div>
+    </nav>
+
+</div>
+
+<article>
+    <form id="formularz">
+        <div class="contact-box">
+            <h1>Wypełnij formularz kontaktowy</h1>
+        </div>
+        <div class="contact-box">
+            <label for="name">Imię:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="contact-box">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Podaj adres email" required>
+        </div>
+        <div class="contact-box">
+            <label for="subject">Temat wiadomości:</label>
+            <select id="subject" name="subject" required>
+                <option value="">Wybierz temat</option>
+                <option >Informacja turystyczna</option>
+                <option >Współpraca</option>
+                <option >Inne</option>
+            </select>
+        </div>
+        <div class="contact-box">
+            <label for="msg">Wiadomość:</label>
+            <textarea id="msg" name="tekst" placeholder="Napisz wiadomość" required></textarea>
+        </div>
+        <div id="buttonContainer">
+        <button>Wyślij</button>
+        </div>
+    </form>
+</article>
+<footer>
+    <div id="stopka">
+        <div id="imie">
+            Szymon Tworek
+        </div>
+
+    </div>
+</footer>
+
+
+
+</body>
+</html>
