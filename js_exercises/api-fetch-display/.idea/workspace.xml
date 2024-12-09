@@ -1,30 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="806d3729-7549-466d-b62a-a86c1c3f5654" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/Wprowadzenie-do-aplikacji-internetowych.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/zad3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../password_generator/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../password_generator/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../password_generator/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../password_generator/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../password_generator/.idea/zad2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../timer/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../timer/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../timer/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../timer/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../timer/.idea/zad1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../zombie_game/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../zombie_game/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../zombie_game/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../zombie_game/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../zombie_game/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../zombie_game/.idea/zad3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../password_generator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../password_generator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timer/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../timer/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,17 +26,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/szymo/Wprowadzenie-do-aplikacji-internetowych/zombie_game&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/szymo/Wprowadzenie-do-aplikacji-internetowych/js_exercises/timer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -72,6 +59,10 @@
       <updated>1732488843061</updated>
       <workItem from="1732488844109" duration="44000" />
       <workItem from="1732491061617" duration="5000" />
+      <workItem from="1732491337066" duration="8000" />
+      <workItem from="1732491368796" duration="17000" />
+      <workItem from="1732537126341" duration="12000" />
+      <workItem from="1732537313225" duration="1474000" />
     </task>
     <servers />
   </component>

@@ -23,7 +23,7 @@ function zegar(){
 
 document.getElementById("start").addEventListener('click',()=>{
     if (!timer){
-        timer=setInterval(zegar,100)
+        timer=setInterval(zegar,1000)
     }
 })
 document.getElementById("stop").addEventListener('click',()=>{
