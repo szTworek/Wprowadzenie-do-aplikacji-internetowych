@@ -13,7 +13,7 @@ const { sequelize, User } = require('../database');
 
 app.post('/api/register', async (req, res) => {
     try {
-        const { email, password } = req.body;
+        const {email, password } = req.body;
 
         const existingUser = await User.findOne({ where: { email } });
         if (existingUser) {
