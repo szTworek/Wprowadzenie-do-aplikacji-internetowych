@@ -1,5 +1,3 @@
-# Kilka zadań wykonanych przeze mnie w ramach realizowania przedmiotu Wprowadzenie do aplikacji internetowych
-
 # Bookshop
    Trzy mikroserwisy zbudowane przy użyciu Node.js, Express i Sequelize w celu zarządzania książkami, zamówieniami i użytkownikami księgarni. Każda usługa działa niezależnie i łączy się z bazą danych SQLite.
 
